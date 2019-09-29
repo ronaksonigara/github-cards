@@ -1,0 +1,37 @@
+
+.github-app__primary-title {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.github-card {
+  display: flex;
+  padding: 20px;
+}
+.github-card__img {
+  display: block;
+  width: 75px;
+  flex-shrink: 0;
+}
+.github-card__content {
+  margin-left: 12px;
+  flex-grow: 1;
+}
+.github-card__name {
+  font-weight: 700;
+  font-size: 20px;
+}
+.github-card__company {
+  font-size: 16px;
+}
+
+.github-app__form {
+  margin: 20px;
+	border: 1px solid #ddd;
+  background-color: #fbfbfb;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
